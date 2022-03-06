@@ -1,0 +1,6 @@
+{
+    "chromeWebSecurity": false,
+    "baseUrl": "https://trello.com",
+    "testFiles": "**/*.feature"
+
+}

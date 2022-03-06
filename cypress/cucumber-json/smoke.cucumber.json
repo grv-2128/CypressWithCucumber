@@ -1,0 +1,70 @@
+[
+  {
+    "description": "    This feature is for smoke test cases",
+    "keyword": "Feature",
+    "name": "Smoke test",
+    "line": 1,
+    "id": "smoke-test",
+    "tags": [],
+    "uri": "smoke.feature",
+    "elements": [
+      {
+        "id": "smoke-test;vote-for-a-survey-and-see-the-results",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Vote for a survey and see the results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I visit Civey \"qa\" application",
+            "result": {
+              "status": "passed",
+              "duration": 27242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click on register",
+            "result": {
+              "status": "passed",
+              "duration": 571000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "gaurav.malhotra090@gmail.com",
+                      "Compugain@12345"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I Enter my registered email id and password",
+            "result": {
+              "status": "passed",
+              "duration": 20680000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

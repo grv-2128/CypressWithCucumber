@@ -1,0 +1,22 @@
+{
+    "landingPage":{
+        "media": "(//a[@class = 'navbar-button_button_1osCA'])[1]",
+        "register": "//a[text()='Log in']",
+        "menu": "//button[@data-test='navbar-account-menu']",
+        "loggedInUserEmail": "(//div[contains(@class,'account-menu_accountLogoTitleWrapper')])[2]/div",
+        "countVoteNow": "//a[contains(@class, 'vote-now-link_link')]",
+        "voteNow": "//a[text()='<options>']/ancestor::section/footer//a",
+        "answer": "//button[@title = '<options>']",
+        "resultContainer" : "//div[contains(@class, 'share-page-vote-result-module_chartContainer')]",
+        "civeyHomePageButton" : "(//a[@href='/'])[1]",
+        "mainTitleContainer" : "(//div[contains(@class,'main-title-module_container')])[1]//span"
+    },
+
+    "register":{
+        "emailInputBox": "//input[@id='user']",
+        "further": "//button[@type='submit']",
+        "passwordInputBox": "//input[@id='password']",
+        "registerButton":"//input[@type='submit']",
+        "registerButton1":"//button[@type='submit']"
+    }
+}
