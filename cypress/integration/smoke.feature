@@ -17,7 +17,7 @@ Feature: Smoke test
        # Then I should be able to see the overall result
        # And I should be able to see the total number of surveys taken by me on home page
 
-        Scenario: Vote for a survey and see the results
+        Scenario: Vote for a survey and see the result
 
         Given I visit Civey "qa" application
         When I click on register
